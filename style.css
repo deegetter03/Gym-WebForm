@@ -1,0 +1,134 @@
+body {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Baloo Bhai', cursive;
+    background: url(img/bg.jpg);
+    /* height: fit-content; */
+    background-attachment: fixed;
+    background-size: cover;
+    color: aliceblue;
+    display: inline-block;
+    /* max-height: 50vh; */
+    width: 70%;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid white; */
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    text-align: center;
+    color: #c5e6e3;
+}
+
+.left img {
+    width: 90px;
+}
+
+.left div {
+    line-height: 10px;
+    padding-bottom: 5px;
+    font-size: 19px;
+}
+
+.mid {
+    display: inline-block;
+    /* border: 2px solid white; */
+    /* position: sticky; */
+    top: 20px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 100px;
+    width: 800px;
+    font-size: x-large;
+}
+
+.right {
+    /* border: 2px solid white; */
+    display: inline-block;
+    position: fixed;
+    top: 50px;
+    right: 70px;
+}
+
+.btn {
+
+    padding: 5px 20px;
+    background-color: #cbe3ee;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(174, 236, 236);
+}
+
+.navbar {
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: larger;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    /* color: aliceblue; */
+    color: rgb(206, 230, 252);
+    padding: 20px 15px 20px 2px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+.container {
+    border: 2px solid #2950d475;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 10px;
+    padding: 30px 30px;
+    width: 500px;
+    color: #4a48d0;
+    display: inline-block;
+}
+
+.form-group {
+    text-align: center;
+    margin: 10px;
+    padding: 2px 2px;
+    border-radius: 4px;
+    font-size: large;
+}
+
+.form-group input {
+    text-align: center;
+    width: 270px;
+    background-color: #b9d6d3;
+    font-size: large;
+
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container h2 {
+    text-align: center;
+    padding: 0px 2px 2px 2px;
+}
+
+.container button {
+    text-align: center;
+    width: 150px;
+    position: relative;
+    left: 170px;
+}
